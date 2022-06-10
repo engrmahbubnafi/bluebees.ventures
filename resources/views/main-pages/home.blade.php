@@ -1,0 +1,10 @@
+@extends('layouts.master')
+@section('title', 'BlueBees Limited')
+@section('content')
+	@include('components.homepage.home-banner-slider')
+	@include('components.homepage.our-businesses')
+	@include('components.homepage.solutions')
+	@include('components.homepage.smart-solutions')
+	@include('components.homepage.blog')
+	@include('components.contact-call-to-action')
+@endsection

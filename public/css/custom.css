@@ -1,0 +1,642 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 69px;
+}
+
+h1, h2, h3{
+    font-weight: 500;
+}
+
+.section-header .section-title{
+    font-weight: 500;
+}
+
+a:hover{
+    color: #0e4e96;
+}
+
+.navbar-expand-lg .navbar-nav .active > .nav-link,
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link.open,
+.navbar-expand-lg .navbar-nav .open > .nav-link {
+    color: #00abe6 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:focus,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #00abe6 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 17px 10px;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-color {
+    background-color: white !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: white;
+    background-color: #0e4e96 !important;
+}
+
+.dropdown-menu{
+    margin: 0;
+}
+
+.navbar-brand img {
+    width: 100% !important;
+    height: auto;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 1000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    z-index: 1;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-item {
+    color: black;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.focus-indicator {
+    background-color: #00abe6;
+    border-radius: 0px;
+    display: none;
+    height: 100%;
+    margin-inline-start: -15px;
+    position: absolute;
+    width: 6px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.business-box {
+    position: relative;
+}
+
+.business-box img {
+    width: 270px;
+    max-width: 100%;
+    height: 335px;
+    display: block;
+}
+
+.button {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    border-radius: 5px;
+    padding: 12px 0px;
+    color: black;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 6%), 0 6px 20px 0 rgb(0 0 0 / 6%);
+}
+
+.button:hover {
+    background-color: #00abe6;
+    color: white;
+    cursor: pointer;
+}
+
+.button i {
+    padding-left: 8px;
+    color: #00abe6;
+}
+
+.button:hover i {
+    color: white;
+}
+
+.fw_al_003_slide h1 {
+    font-size: 3vw;
+    font-weight: 400;
+    color: #3f3f41;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#fw_al_003 {
+    margin-top: 95px;
+}
+
+.btn-common {
+    border: #00abe6;
+    background-color: #00abe6;
+}
+
+.calltoaction-area {
+    background: #0e4e96;
+}
+
+.welcom-btn {
+    color: white;
+    background-color: #00abe6;
+    font-weight: 500;
+}
+
+.welcom-btn:hover {
+    color: white;
+    background-color: #0e4e96;
+    cursor: pointer;
+}
+
+.contact-form {
+    background-color: #f8f9fa;
+    margin-top: 25px;
+}
+
+.contact-form-button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#copyright p a {
+    color: #00abe6;
+}
+
+.contact-icon {
+    background: #8a8a8a;
+}
+
+.text-clr {
+    color: #00abe6;
+}
+
+.section {
+    padding: 50px 0px !important;
+}
+
+.section-heading-line {
+    background: #00abe6;
+}
+
+.left-holder .section-heading-line {
+    background: #00abe6;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    vertical-align: center;
+    width: 5%;
+}
+
+.primary-list li i {
+    color: #b2b2b2;
+}
+
+.row-gap {
+    padding-top: 50px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn-common:hover {
+    color: white;
+    background-color: #0e4e96;
+    border: 0px solid #00abe6;
+}
+
+.single-contact:hover .contact-icon {
+    color: #00abe6;
+    border: 1px solid #0e4e96;
+}
+
+.single-contact a p:hover{
+    color: #00abe6;
+}
+
+.form-control::placeholder {
+    color: black !important;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: black !important;
+}
+
+.form-control::-ms-input-placeholder {
+    color: black !important;
+}
+
+.single-input .form-control {
+    border-bottom: 1px solid black;
+}
+
+.single-input .form-control:focus {
+    border-bottom: 1px solid #00abe6;
+}
+
+.contact-button:hover {
+    color: #00abe6;
+    background-color: white;
+}
+
+input[type="text"],
+textarea,
+select {
+    color: black !important;
+    caret-color: #00abe6;
+}
+
+.dropdown-divider {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.business-box:hover .button {
+    background-color: #00abe6;
+    color: white;
+    cursor: pointer;
+}
+
+.business-box:hover .button i {
+    color: white;
+}
+
+.back-to-top i {
+    background-color: #00abe6;
+}
+
+.section-title a:hover {
+    color: #0e4e96;
+    text-decoration: underline;
+}
+
+.blog img {
+    width: 100%;
+    max-height: 200px;
+}
+
+.blog h3 {
+    font-size: 1.3rem;
+    padding-top: 5px;
+    color: black;
+}
+
+.blog a {
+    color: #676767;
+}
+
+.blog a:hover {
+    color: #00abe6;
+}
+
+.blog span {
+    font-size: 13px;
+}
+
+.page-banner {
+    position: relative;
+}
+
+.page-banner img {
+    width: 100%;
+    height: 250px;
+}
+
+.page-heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-heading-black{
+    color: #6a6161;
+}
+
+.page-heading-white{
+    color: white;
+}
+
+.description {
+    padding-top: 40px;
+}
+
+.description-color p {
+    color: #222;
+}
+
+.footer-contact {
+    padding: 50px 0px;
+}
+
+.businesses-section-padding-bottom{
+    padding-bottom: 70px !important;
+}
+
+.more-button {
+    width: 270px;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    transition: 0.4s;
+    height: 50px;
+    color: white;
+    background-color: #00abe6;
+    margin-top: 40px;
+}
+
+.more-button:hover {
+    color: white;
+    background-color: #0e4e96;
+    cursor: pointer;
+}
+.more-button:after {
+    content: "\f138";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.blog-date {
+    text-align: right;
+}
+.blog-details-section {
+    padding: 40px 0;
+}
+.blog-heading a {
+    color: #00abe6;
+}
+.contact-description {
+    font-size: 20px;
+    line-height: 34px;
+}
+.contact-section {
+    padding-top: 40px;
+}
+
+.contact-us-section {
+    padding: 40px 0px;
+}
+.bluebees-bold {
+    font-weight: bolder;
+}
+.contact-us h3 {
+    color: white;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+.primary-list li {
+    position: relative;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.primary-list li:before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f14a";
+    color: #00abe6;
+}
+.contact-icon {
+    margin-bottom: 20px;
+}
+.content-image img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-padding{
+    padding-top: 50px;
+}
+
+.map-and-address{
+    padding-top: 30px;
+}
+
+.col-to-action-button{
+    padding-top: 10px;
+}
+
+.information-contact-icon{
+    padding-bottom: 10px;
+}
+
+.quick-link{
+    color: #666;
+    padding-top: 10px;
+}
+
+.quick-link p{
+    line-height: 0px;
+}
+
+.quick-link p:hover{
+    color: #00abe6;
+}
+
+.padding-top-30{
+    padding-top: 30px;
+}
+
+.skeleton {
+    animation: skeleton-loader 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loader {
+    0% {
+        background-color: hsl(200, 20%, 80%);
+    }
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
+.banner-image {
+    width: 1920px;
+    height: 380px;
+}
+
+.skeleton-banner-image {
+    width: 1920px;
+    height: 380px;
+}
+
+.skeleton-business-image {
+    width: 270px;
+    height: 335px;
+    border-radius: 15px;
+}
+
+.skeleton-solutions-image {
+    width: 872px;
+    height: 999px;
+}
+
+.skeleton-smart-solutions-image {
+    width: 540px;
+    height: 270px;
+}
+
+.skeleton-blog-card-image {
+    width: 350px;
+    height: 184px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    body{
+        padding-top: 60px !important;
+    }
+    .navbar-brand img {
+        width: 80% !important;
+        height: auto;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: auto !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 7px 10px;
+    }
+    /* .navbar-nav {
+        height: 100vh;
+    } */
+    .navbar button:focus{
+        overflow: hidden;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+    .carousel-inner img {
+        height: auto;
+    }
+    .business-box {
+        padding-top: 50px;
+    }
+    .row-gap {
+        padding-top: 0px;
+    }
+    .blog {
+        padding: 10px;
+    }
+    .contact-col {
+        padding-bottom: 50px;
+    }
+    .mobile-text-center {
+        text-align: center !important;
+    }
+    .float-left {
+        float: none !important;
+        text-align: center;
+    }
+    .float-right {
+        float: none !important;
+        text-align: center;
+    }
+    .page-banner img{
+        width: auto;
+    }
+    .page-banner h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .section h1 {
+        font-size: 33px;
+        text-align: center;
+    }
+    .content-alignment {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .section {
+        padding: 40px 0;
+    }
+    .page-banner img{
+        height: 150px;
+    }
+    .single-contact{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .contact-icon{
+        margin: 0 auto 15px;
+    }
+}

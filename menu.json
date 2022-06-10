@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Home"
+    },
+    {
+        "id": 2,
+        "name": "About Us"
+    },
+    {
+        "id": 3,
+        "name": "Our Businesses",
+        "submenu": [
+            {
+                "id": 1,
+                "name": "Knittersland"
+            },
+            {
+                "id": 2,
+                "name": "Nilam.xyz"
+            }
+        ]
+    }
+]
